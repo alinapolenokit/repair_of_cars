@@ -1,0 +1,135 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+header{
+    background-color: #4caf50;
+    color: #ffff;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #ffff;
+    padding-bottom: 2px;
+}
+
+.menu-item:hover a{
+    border-bottom: 2px solid white;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 20px;
+    width: 75%;
+    float: left;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 19%;
+    float: right;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside ul {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+aside li{
+    margin-bottom: 10px;
+}
+
+footer{
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    padding-bottom: 1px;
+    display: inline;
+    border-bottom: 1px solid #fff;
+}
+
